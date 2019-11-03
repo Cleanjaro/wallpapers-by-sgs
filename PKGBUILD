@@ -8,7 +8,6 @@ pkgdesc='Cleanjaro Wallpapers by SGS'
 arch=('any')
 url="https://github.com/Cleanjaro/wallpapers-by-sgs"
 license=('GPLv3')
-makedepends=('git')
 source=("placeholder")
 sha256sums=('placeholder')
 
