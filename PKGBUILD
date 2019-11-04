@@ -3,7 +3,7 @@
 
 pkgname='cleanjaro-wallpapers-by-sgs'
 pkgver=20191104
-pkgrel=1
+pkgrel=2
 pkgdesc='Cleanjaro Wallpapers by SGS'
 arch=('any')
 url="https://github.com/Cleanjaro/wallpapers-by-sgs"
@@ -16,8 +16,10 @@ pkgver() {
 }
 
 package() {    
-    install -d -m755 ${pkgdir}/usr/share/backgrounds
+    install -d -m755 ${pkgdir}/usr/share/backgrounds/sgs
 	cd $srcdir
-	cp -R wallpapers-by-sgs/wallpaper/* ${pkgdir}/usr/share/backgrounds
+	cp -R wallpapers-by-sgs/wallpaper/* ${pkgdir}/usr/share/backgrounds/sgs
+    install -d -m755 ${pkgdir}/usr/share/icons
+	cp -R wallpapers-by-sgs/icon/* ${pkgdir}/usr/share/icons
 }
 
