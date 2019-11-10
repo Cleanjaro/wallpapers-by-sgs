@@ -2,8 +2,8 @@
 # Maintainer: David Spink <yorper_protonmail.com>
 
 pkgname='cleanjaro-wallpapers-by-sgs'
-pkgver=20191104
-pkgrel=2
+pkgver=20191110
+pkgrel=1
 pkgdesc='Cleanjaro Wallpapers by SGS'
 arch=('any')
 url="https://github.com/Cleanjaro/wallpapers-by-sgs"
